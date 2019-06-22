@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:layout_marginBottom="20dp"
+        android:text="Pilih Karakter"
+        />
+    <Button
+        android:id="@+id/btn_auditori"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="Auditori"
+        />
+
+    <Button
+        android:id="@+id/btn_visual"
+        android:layout_marginBottom="8dp"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:text="Visual"
+        />
+
+    <Button
+        android:id="@+id/btn_kinestetik"
+        android:layout_marginBottom="8dp"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:text="Kinestetik"
+        />
+    <Button
+        android:id="@+id/btn_av"
+        android:layout_marginBottom="8dp"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:text="Auditori - Visual"
+        />
+
+    <Button
+        android:id="@+id/btn_ak"
+        android:layout_marginBottom="8dp"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:text="Auditori - Kinestetik" />
+    <Button
+        android:id="@+id/btn_vk"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:text="Visual - Kinestetik"
+        />
+</LinearLayout>
