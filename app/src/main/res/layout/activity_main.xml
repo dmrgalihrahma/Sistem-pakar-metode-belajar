@@ -35,7 +35,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Konsultasi"/>
+                android:text="Klasifikasi Karakter"/>
         </LinearLayout>
 
         <LinearLayout
@@ -45,19 +45,19 @@
             android:orientation="vertical">
 
             <ImageButton
-                android:id="@+id/btn_metode"
+                android:id="@+id/btn_konsulMetode"
                 android:background="@drawable/button_bg"
                 android:layout_width="match_parent"
                 android:layout_height="100dp"
-                android:src="@mipmap/ic_method"/>
+                android:src="@mipmap/ic_help"/>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Metode Belajar"/>
+                android:text="Konsultasi Metode"/>
         </LinearLayout>
-    </LinearLayout>
 
+    </LinearLayout>
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content">
@@ -82,10 +82,34 @@
                 android:layout_height="wrap_content"
                 android:text="Riwayat"/>
         </LinearLayout>
+        <LinearLayout
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/btn_metode"
+                android:background="@drawable/button_bg"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:src="@mipmap/ic_method"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Metode Belajar"/>
+        </LinearLayout>
+    </LinearLayout>
+        <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
 
         <LinearLayout
             android:layout_width="120dp"
             android:layout_height="120dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
             android:gravity="center"
             android:orientation="vertical">
 
@@ -94,12 +118,13 @@
                 android:background="@drawable/button_bg"
                 android:layout_width="match_parent"
                 android:layout_height="100dp"
-                android:src="@mipmap/ic_help"/>
+                android:src="@mipmap/ic_history" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Bantuan"/>
         </LinearLayout>
+
     </LinearLayout>
 </LinearLayout>

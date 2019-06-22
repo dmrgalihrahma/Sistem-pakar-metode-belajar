@@ -22,7 +22,28 @@
         <activity android:name=".MetodeActivity" />
         <activity android:name=".HistoryActivity" />
         <activity android:name=".HelpActivity" />
-        <activity android:name=".KlasifikasiActivity"></activity>
+        <activity android:name=".KlasifikasiActivity"/>
+        <activity android:name=".MenuActivity"/>
+        <activity android:name=".Hasil.Auditori1"/>
+        <activity android:name=".Hasil.Auditori2"/>
+        <activity android:name=".Hasil.Visual1"/>
+        <activity android:name=".Hasil.Visual2"/>
+        <activity android:name=".Hasil.Visual3"/>
+        <activity android:name=".Hasil.Kinestetik1"/>
+        <activity android:name=".Hasil.Kinestetik2"/>
+        <activity android:name=".Hasil.AudioVisual1"/>
+        <activity android:name=".Hasil.AudioKinestetik1"/>
+        <activity android:name=".Hasil.AudioKinestetik2"/>
+        <activity android:name=".Hasil.VisualKinestetik1"/>
+        <activity android:name=".Hasil.VisualKinestetik2"/>
+        <activity android:name=".HasilActivity"/>
+        <activity android:name=".Menu.AuditoriActivity"/>
+        <activity android:name=".Menu.VisualActivity"/>
+        <activity android:name=".Menu.Visual2Activity"/>
+        <activity android:name=".Menu.KinestetikActivity"/>
+        <activity android:name=".Menu.AudioKinestetikActivity"/>
+        <activity android:name=".Menu.VisualKinestetikActivity">
+        </activity>
     </application>
 
 </manifest>

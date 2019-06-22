@@ -9,7 +9,7 @@ import android.widget.ImageButton;
 import com.example.damar.finalproject.model.Klasifikasi;
 
 public class MainActivity extends AppCompatActivity {
-    ImageButton btn_konsultasi, btn_metode, btn_history, btn_help;
+    ImageButton btn_konsulMetode,btn_konsultasi, btn_metode, btn_history, btn_help;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -43,6 +43,13 @@ public class MainActivity extends AppCompatActivity {
                 openHelp();
             }
         });
+        btn_konsulMetode = (ImageButton) findViewById(R.id.btn_konsulMetode);
+        btn_konsulMetode.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                openKonsulMetode();
+            }
+        });
     }
     public void openKonsultasi(){
         Intent intent = new Intent(this, KlasifikasiActivity.class);
@@ -58,6 +65,10 @@ public class MainActivity extends AppCompatActivity {
     }
     public void openHelp(){
         Intent intent = new Intent(this, HelpActivity.class);
+        startActivity(intent);
+    }
+    public void openKonsulMetode(){
+        Intent intent = new Intent(this, MenuActivity.class);
         startActivity(intent);
     }
 }

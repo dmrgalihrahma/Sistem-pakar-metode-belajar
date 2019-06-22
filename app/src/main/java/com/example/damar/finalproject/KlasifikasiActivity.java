@@ -89,7 +89,6 @@ public class KlasifikasiActivity extends AppCompatActivity implements StepperLay
     public void onStepSelected(int newStepPosition) {
         Toast.makeText(this, "onStepSelected! -> " + newStepPosition, Toast.LENGTH_SHORT).show();
     }
-
     @Override
     public void onReturn() {
         finish();

@@ -48,6 +48,7 @@ public class StepFragmentExample extends Fragment implements Step {
         View view = inflater.inflate(R.layout.fragment_step_fragment_example, container, false);
 
         mRadioGroup = view.findViewById(R.id.radioGroupWrapper);
+        mRadioGroup.getCheckedRadioButtonId();
 
         DatabaseHelper mDBHelper = new DatabaseHelper(getContext());
         Log.d("#######", String.valueOf(bundle.getInt(MyStepperAdapter.CURRENT_STEP_POSITION_KEY)));
