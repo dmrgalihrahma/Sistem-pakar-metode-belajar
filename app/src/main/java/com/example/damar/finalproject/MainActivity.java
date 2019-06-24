@@ -9,7 +9,7 @@ import android.widget.ImageButton;
 import com.example.damar.finalproject.model.Klasifikasi;
 
 public class MainActivity extends AppCompatActivity {
-    ImageButton btn_konsulMetode,btn_konsultasi, btn_metode, btn_history, btn_help;
+    ImageButton btn_konsulMetode, btn_konsultasi, btn_metode, btn_history, btn_help;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

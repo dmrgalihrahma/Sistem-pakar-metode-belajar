@@ -26,7 +26,7 @@ public class VisualActivity extends AppCompatActivity {
         btn1 = (Button) findViewById(R.id.btn1);
         btn2 = (Button) findViewById(R.id.btn2);
         text = (TextView) findViewById(R.id.question);
-        q1 = "Apakah anak cenderung lebih suka belajar dengan permainan atau tidak?";
+        q1 = "Apakah anak cenderung lebih bisa menerima materi dengan belajar secara individu atau kelompok?";
         text.setText(q1);
         btn1.setText("Individu");
         btn2.setText("Kelompok");
